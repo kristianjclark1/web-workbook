@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+    background-image: url(http://www.blugraphic.com/wp-content/uploads/2014/09/05.jpg); 
+}
+
+img {
+    float: none;
+}
+
+main {
+    margin: 60px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+div {
+    width: 128px;
+    margin: auto;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+h3 {
+    text-align: center
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+
+
+
+
+
+
+
