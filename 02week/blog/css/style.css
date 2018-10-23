@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1516439851893-1367ebb35ea7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=37b358cd3143c6dc410a7e3b527d28a6&auto=format&fit=crop&w=2767&q=80);
+    background-color: gray;
+    background-size: cover;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: paleturquoise;
+    border-radius: 30px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: inherit;
+    
+}
+
+.topnav a:hover {
+    background-color:#2196F3;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color:black;
+    
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 14px;
+    font-size: 14px;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+h2 {
+    font-family: fantasy;
+    color: purple;
+}
+
+h2 {
+    color: burlywood !important;
+
+}
+
+article {
+    background-color: paleturquoise; 
+    padding: 20px;
+    margin: 20px;
+    font-family: inherit;
+    border-radius: 30px;
+    box-shadow: 12px 12px 2px 1px rgba(10, 126, 155, 0.973);
+}
+
+p:hover:first-letter {
+    color: purple;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    padding: 5px 5px;
+    background-color: rgb(152, 251, 246);
+    color:black;
+    border-radius: 30px;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
+
+footer ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
