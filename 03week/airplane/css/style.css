@@ -1,0 +1,75 @@
+body {
+    background-image: url("../img/airline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+ h1{
+     background: url("../img/logo.png");
+     background-repeat: no-repeat;
+     margin-left: 20px;
+     width: 100%;
+     overflow: visible;
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+li {
+    float: right;
+}
+     
+
+
+li a {
+    text-decoration: none;
+    float: right;
+    padding: 12px 14px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+    color: teal;
+}
+
+li a.active {
+    background-color: teal
+}
+
+
+.block {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    height: 250px;
+    width: 250px;
+}
+
+.content {
+    background-color: royalblue;
+}
+
+button {
+    background-color: rgb(32, 96, 191);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airline</title>
+    <style>
+        .boxy {
+            border:1px solid white;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+      <img src="./img/logo.png">  
+       <ul>
+         <li><img src="./img/login-icon.png"><a href="#Register/Login">Register/login</a></li>
+         <li><img src="./img/plane-icon.png"><a href="#Flight Schedule">Flight Schedule</a></li>
+         <li><img src="./img/schedule-icon.png"><a href="#Travel Deals">Travel Deals</a></li>
+         <li><img src="./img/home-icon.png"><a class="active" href="Home">Home</a></li>
+       </ul>
+    </header> 
+    <main>
+        <article style= "border: solid black 1px" >
+            <div class="block first">
+                <div class="content">
+                  <button><img src="./img/plane-icon.png"></button>
+                  <button><img src="./img/hotel-icon.png"></button>
+                  <button><img src="./img/car-icon.png"></button>
+                </div>
+            </div>
+            <div>
+                <input type="text" class="depart-field" placeholder="Depart"/>
+                <input type="text" class="arrive-field" placeholder="Arrive"/>
+            </div>
+            <div>
+                <input type="date" class="depart-date" placeholder="mm/dd/yyyy"/>
+                <input type="date" class="arrive-date" placeholder="mm/dd/yyy"/>
+            </div>
+            <div>
+                <input type="number" name="passengers" value="Passengers"/>
+                <input type="radio" name="travel" value="Return"/>
+                <input type="radio" name="travel" value="One Way"/>
+            
+            </div>
+            <button>Search Flights</button>
+        </article>
+    </main>
+     
+
+     
+</body>
+</html>
