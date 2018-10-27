@@ -5,31 +5,41 @@ body {
     width: 100%;
     height: auto;
 }
+
+header {
+    background-color: hsl(210, 53%, 23%);
+}
+
  h1{
      background: url("../img/logo.png");
      background-repeat: no-repeat;
      margin-left: 20px;
      width: 100%;
      overflow: visible;
+}
+
+ .top-menu img {
+    width: 15px;
+    height: 15px;
+    margin-bottom: -12px;
  }
 
  ul {
      list-style-type: none;
-     margin: 0;
+     margin: 21px;
      padding: 0;
      overflow: hidden;
+     float: right;
  }
 
 li {
     float: right;
 }
      
-
-
 li a {
     text-decoration: none;
     float: right;
-    padding: 12px 14px;
+    padding: 12px 14px 12px 4px;
     font-size: 12px;
     text-align: center;
     color: white;
@@ -44,7 +54,6 @@ li a.active {
     background-color: teal
 }
 
-
 .block {
     margin-top: 10px;
     margin-right: 20px;
@@ -55,7 +64,37 @@ li a.active {
 }
 
 .content {
-    background-color: royalblue;
+    background-color:  hsl(210, 53%, 23%);
+    height:300px;
+    width: 300px;
+}
+
+.top-button {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    height: 35px;
+}
+
+.top-button-blue {
+    background: blue;
+}
+ 
+.top-button-teal {
+     background: teal;
+ }
+
+.top-button img {
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    float: left;
+}
+
+.depart-date {
+    margin: 10px;
 }
 
 button {
@@ -67,7 +106,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 8px 2px;
+    margin: 10px 105px;
     cursor: pointer;
 }
 

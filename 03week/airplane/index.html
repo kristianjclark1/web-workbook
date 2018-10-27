@@ -15,7 +15,7 @@
 <body>
     <header>
       <img src="./img/logo.png">  
-       <ul>
+       <ul class="top-menu">
          <li><img src="./img/login-icon.png"><a href="#Register/Login">Register/login</a></li>
          <li><img src="./img/plane-icon.png"><a href="#Flight Schedule">Flight Schedule</a></li>
          <li><img src="./img/schedule-icon.png"><a href="#Travel Deals">Travel Deals</a></li>
@@ -24,28 +24,28 @@
     </header> 
     <main>
         <article style= "border: solid black 1px" >
-            <div class="block first">
+            <div class="block first left-form">
                 <div class="content">
-                  <button><img src="./img/plane-icon.png"></button>
-                  <button><img src="./img/hotel-icon.png"></button>
-                  <button><img src="./img/car-icon.png"></button>
+                  <div class="top-button top-button-blue"><img src="./img/plane-icon.png"></div>
+                  <div class="top-button top-button-teal"><img src="./img/hotel-icon.png"></div>
+                  <div class="top-button top-button-teal"><img src="./img/car-icon.png"></div>
                 </div>
             </div>
-            <div>
+            <div class="block second left-form">
                 <input type="text" class="depart-field" placeholder="Depart"/>
                 <input type="text" class="arrive-field" placeholder="Arrive"/>
             </div>
             <div>
                 <input type="date" class="depart-date" placeholder="mm/dd/yyyy"/>
                 <input type="date" class="arrive-date" placeholder="mm/dd/yyy"/>
-            </div>
-            <div>
                 <input type="number" name="passengers" value="Passengers"/>
+            </div>
+            <div>    
                 <input type="radio" name="travel" value="Return"/>
                 <input type="radio" name="travel" value="One Way"/>
-            
+                <button>Search Flights</button>
             </div>
-            <button>Search Flights</button>
+            
         </article>
     </main>
      
