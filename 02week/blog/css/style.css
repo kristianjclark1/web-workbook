@@ -5,6 +5,10 @@ body {
     font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 .topnav {
     overflow: hidden;
     background-color: paleturquoise;

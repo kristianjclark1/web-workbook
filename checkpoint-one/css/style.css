@@ -1,1 +1,74 @@
+body {
+    background-image: url(https://i.pinimg.com/474x/39/d7/39/39d73980c4e01d1816f83f533b4fc5bf--acl--scen.jpg);
+    overflow: auto;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a hover {
+    background-color: gray;
+    color: white;
+}
+
+main {
+    border: -2px solid white;
+    margin: auto;
+}
+
+div {
+    padding: 24px;
+}
+article {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 35px;
+    margin: 140px;
+    float: left;
+}
+h2 {
+    font-weight: bold;
+}
+
+ul.a {
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+  
+
+    
