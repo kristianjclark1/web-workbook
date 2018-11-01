@@ -1,0 +1,70 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+
+
+    
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+article {
+    width: 270px;
+    height: 374px;
+    background-color: lightgrey;
+}
+
+.social {
+    width: 270px;
+    height: 374px;
+    color: gray;
+    
+    
+}
+
+.contact {
+    width: 270px;
+    height: 374px;
+    color: gray;
+}
+
+input[type=send] {
+   background-color: darkgray;
+   color: white;
+   padding: 15px;
+   cursor: pointer;
+   margin: 0px;
+   text-align: center;
+   border: none;
+}
+
+.office {
+    color: gray;
+    width: 270px;
+    height: 374px;
+
+}
