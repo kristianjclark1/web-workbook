@@ -1,0 +1,48 @@
+#container {
+    width: 800px;
+    height: 400px;
+    background-color: turquoise;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+
+@media (min-width: 576px) 
+    #container {
+    background-color: red;}
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    padding-top: 50px
+}
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    padding-top: 30px;
+    background-color: black;
+}    
+
+
+article {
+    width: 170px;
+    height: 374px;
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+

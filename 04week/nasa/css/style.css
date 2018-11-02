@@ -36,20 +36,12 @@ article {
     width: 270px;
     height: 374px;
     background-color: lightgrey;
+    color: gray;
+    padding-left: 20px;
 }
 
-.social {
-    width: 270px;
-    height: 374px;
-    color: gray;
-    
-    
-}
-
-.contact {
-    width: 270px;
-    height: 374px;
-    color: gray;
+h3 {
+    color: black;
 }
 
 input[type=send] {
@@ -62,9 +54,5 @@ input[type=send] {
    border: none;
 }
 
-.office {
-    color: gray;
-    width: 270px;
-    height: 374px;
 
-}
+
