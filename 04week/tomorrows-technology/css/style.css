@@ -1,0 +1,71 @@
+#container {
+    width: 700px;
+    height: 400px;
+    text-align: left;
+    background-image: url("/Users/kristianclark/Documents/web-workbook/04week/tomorrows-technology/img/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+  }
+  
+header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 743px;
+    
+  }
+
+@media (min-width: 992px) {
+  #container {
+      background-color: blue;}
+  }
+
+.technology {
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    padding-left: 10px;
+    margin:10px;
+  }
+  
+h4 {
+    color: white;
+  }
+  
+#container1 {
+    width: 640px;
+    height: 325px;
+    text-align: center;
+    background-image: url("/Users/kristianclark/Documents/web-workbook/04week/tomorrows-technology/img/bg.jpg");
+  }
+  
+ @media (min-width: 768px) { 
+    #container1 {
+      background-color: red;
+    }
+    
+ @media (min-width: 576px) {
+      #container2 {
+        background-color: green;
+      } 
+      
+#container2 {
+       width: 400px;
+       height: 200px;
+       text-align: center;
+       background-image: url("/Users/kristianclark/Documents/web-workbook/04week/tomorrows-technology/img/bg.jpg");
+      } 
+      
+.info {
+        display: flex;
+        background-color: gray;
+        color: white;
+        width: 400px;
+        height: 215px;
+  }
+      
+article {
+    padding-left: 50px;
+}
