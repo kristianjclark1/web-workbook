@@ -1,0 +1,26 @@
+div {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 50px;
+    margin: auto;
+}
+
+.abox:nth-child(odd){
+    background: turquoise;
+    transition: background-color 1s, width 1s, height 2s;
+}
+
+div:hover {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+}
+
+.abox:nth-child(even){
+    background: blue;
+}
