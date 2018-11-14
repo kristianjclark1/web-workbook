@@ -38,6 +38,11 @@ article {
     background-color: lightgrey;
     color: gray;
     padding-left: 20px;
+    transition: background-color 2s;
+}
+
+article:hover {
+    background-color: aqua;
 }
 
 h3 {

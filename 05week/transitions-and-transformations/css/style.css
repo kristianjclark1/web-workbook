@@ -10,17 +10,73 @@ main {
     margin: auto;
 }
 
-.abox:nth-child(odd){
-    background: turquoise;
-    transition: background-color 1s, width 1s, height 2s;
+.purple {
+    background-color: purple;
 }
 
-div:hover {
-    background-color: cornflowerblue;
-    width: 100px;
+.gray {
+    background-color: gray;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.lightgray {
+    background-color: lightgray;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.hotpink {
+    background-color: hotpink;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.aa {
+    transition: width 3s, height 3s, margin-left 3s, transform 3s ;
+}
+
+.bb {
+    transition: width 1s, height 1s, margin-left 1s, transform 1s ;
+}
+
+.aa:hover, .aa:active {
     height: 100px;
+    width: 100px;
+    margin-left: 350px;
+    transform: rotate(360deg);
 }
 
-.abox:nth-child(even){
-    background: blue;
+.bb:hover, .bb:active {
+    height: 25px;
+    width: 25px;
+    margin-left: -350px;
+    transform: rotate(-380deg);
 }
+
