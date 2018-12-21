@@ -1,1 +1,58 @@
+main {
+    width: 200px;
+    margin: auto;
+  }
+  
+  body {
+    background-color: turquoise;
+    margin: auto;
+  }
 
+  header {
+      text-align: center;
+  }
+
+  .nav {
+      background-color: teal;
+      padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+}
+  
+img { 
+    height: 300px;
+  }
+  
+  #currentTotal {
+    width:150px;
+    height:50px;
+    border:1px solid black;
+    text-align: center;
+    font-size: 48px;
+    background-color: white;
+  }
+  
+  .button {
+    width:150px;
+    height:20px;
+    border:1px solid black;
+    border-radius:25px;
+    text-align: center;
+    cursor:pointer;
+    background-color: beige;
+  }

@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Feed the Meter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header><h1>My Clicker Game</h1></header>
+       <div class="nav">
+         <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+         </ul>
+      </div>
+    <main>
+        <h1>Feed The Meter</h1>
+        <img src="https://image.freepik.com/free-icon/parking-meter_318-51021.jpg" id="meter"><br>
+        Time<br>
+        <small>Minutes: <span id="mps"></span></small>
+        <div id="currentTotal"></div>
+        <div id="buttons">
+            <div class="button" data-val=".001" data-cost="25">15 Minutes - <span>$0.25</span></div>
+            <div class="button" data-val=".01" data-cost="50">30 Minutes - <span>$0.50</span></div>
+            <div class="button" data-val=".1" data-cost="75">45 Minutes - <span>$0.75</span></div>
+            <div class="button" data-val="1" data-cost="100">1 Hour - <span>$1.00</span>      </div>
+        </div>
+        <script>
+        var data = {
+  totalCurrent:0, 
+  totalMPS: 0
+}
 
+setInterval(tickTick,1000);
+
+function tickTick() {
+  data.totalCurrent += data.totalMPS;
+  updateReport();
+}
+
+function updateReport() {
+  $("#currentTotal").text(Math.floor(data.totalCurrent));
+  $("#mps").text((data.totalMPS/70.4).toFixed(3));
+}
+
+//click on the meter to get variable
+$("#meter").click(function (){
+  data.totalCurrent ++;
+  updateReport();
+})
+
+//click on button to add value
+$(".button").click(function (){ 
+  var addVal = $(this).data( "cost" );
+  if ($(this).data( "cost" ) < data.totalCurrent ) {
+    data.totalCurrent -=  parseFloat($(this).data( "cost" ).toPrecision(1));
+    data.totalMPS += parseFloat($(this).data( "val" ));
+    $( this ).children("span").html( parseInt($( this ).children("span").html()*1)); 
+    $( this ).data( "cost", parseInt($(this).data( "cost" ) * 1) ); 
+  }
+  updateReport();
+})
+        </script>
+    </main>
+    
+</body>
+</html>
